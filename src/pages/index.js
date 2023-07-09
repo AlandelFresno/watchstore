@@ -28,7 +28,7 @@ const Home = () => {
         <Typography variant="h2">Welcome to Focus</Typography>
         <h2>Welcome to Focus</h2>
       </Box>
-      <CustomCarousel item={[{ name: 'name1' }, { name: 'name2' }]} />
+      <CustomCarousel item={[{id: 1}, {id: 2}, {id: 3}, {id: 4}, {id: 5}, {id: 6}]} />
     </>
   );
 };
